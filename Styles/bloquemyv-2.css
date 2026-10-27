@@ -1,0 +1,55 @@
+.bloque-mision-vision{
+   background-color: white;
+   text-align: center;
+   color:rgb(19, 9, 58);
+   min-height: 636px;
+   transition: opacity 0.4s ease-in-out, background 0.6s ease, color 0.6s ease !important;
+   opacity: 1;
+}
+
+.bloque-mision-vision.desvanecido{
+    opacity: 0 !important;
+}
+
+
+.flx-over{
+    padding: 0 280px;
+
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-top, .line-bottom{
+    height: 80px;
+    margin-top: 30px
+
+}
+
+.masked-text {
+    font-style: normal;
+    font-size: 8vw;
+    font-weight: 900;
+    line-height: .9em;
+    margin-bottom: 2w;
+    background-image: url(../images/work-with-us-mask-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.more {
+    text-decoration: none;
+    color:rgb(19, 9, 58);
+
+}
+
+.texto-myv, h4 {
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 600;
+    color: black;
+}
